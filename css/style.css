@@ -7,6 +7,24 @@
 	vertical-align: baseline;
 }
 
+body {
+    background-color: #eee;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    position: fixed;
+    min-height: 75px;
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
 input[type="email"] {
     border: solid;
     border-color: aqua;
@@ -20,4 +38,180 @@ button[type="submit"]{
     background-color: peru;
     
 
+}
+#header {
+    display: flex;
+}
+#header .logo{
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    align-items: center;
+}
+#header .logo img {
+    width: 120px;
+    height: 100px;
+}
+#header .logo h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+}
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+#nav-bar > ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav-bar ul li {
+    text-decoration: none;
+    list-style: none;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: #000
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+}
+.hero p {
+    display: flex;
+    font-size: 34px;
+    color: #000;
+    justify-content: center;
+}
+.hero form {
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-submit button {
+    cursor: pointer;
+}
+.btn-submit button h4 {
+    padding: 10px 20px;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.video p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #000;
+}
+.video #video {
+    margin: 20px auto;
+}
+
+section {
+    display: flex;
+    margin: 30px auto;
+}
+.about-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-us h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-us p {
+    max-width: 60vw;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 0px;
+}
+.offers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.offers h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.offers ul{
+    max-width: 60vw;
+    padding: 10px 0px;
+    text-align: start;
+}
+.offers ul li {
+    font-size: 18px;
+    color: #000;
+}
+/*  */
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonials h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.testimonials .reviews {
+    display: flex;
+    flex-direction: row;
+    
+}
+.testimonials .reviews .content {
+    display: flex;
+    flex-direction: column;
+    padding: 63px 80px 63px 63px;
+}
+.testimonials .reviews .content img {
+    max-width: 460px;
+    height: 320px;
+    border-radius: 50px;
+}
+.testimonials .reviews .content p {
+    max-width: 460px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px 0px 0px 0px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin: 0px auto;
+    background-color: burlywood;
+}
+footer .available {
+    text-align: center;
+}
+footer .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    column-gap: 60px;
+    margin-bottom: 30px;
 }

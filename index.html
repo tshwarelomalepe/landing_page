@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
    
   <body>
-    <div>
-      <header id="header" >
-      <div>
+    <div class="container">
+      <header id="header" class="header-content">
+        <div class="logo">
           <img id="header-img" src="https://bcassetcdn.com/public/blog/wp-content/uploads/2019/06/18095156/tutoring-tree.png">
+          <h2>Tutoring Tree</h2>
         </div>
-        <div>
           <nav id="nav-bar">
-            <div>
             <ul>
               <li ><a class="nav-link" href="#about-us">About us </a></li>
               <li ><a class="nav-link" href="#offers">Our offers</a></li>
@@ -22,85 +22,86 @@
               <li ><a class="nav-link" href="#contact">Contact us</a></li>
             
             </ul>
-          </div>
-
           </nav>
-        </div>
       </header>
-    </div>
-    <br>
-    <div>
-      <p>Enter your email address for more information:</p>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-
-       <input name="email" id="email" type="email" placeholder="Enter your email"> 
-       <br>
-       <br>
-       <div>
-       <a name="submit-button" href="https://www.freecodecamp.com/email-submit">
-       <button type="submit" id="submit" >Submit</button>
-      </a>
+      <div class="hero">
+        <p>Enter your email address for more information:</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+  
+         <input name="email" id="email" type="email" placeholder="Enter your email"> 
+         <div class="btn-submit">
+          <a name="submit-button" href="https://www.freecodecamp.com/email-submit">
+            <button type="submit" id="submit" ><h4>Submit</h4></button>
+          </a>
+        </div>
+        </form>
       </div>
-      </form>
-    </div>
-    <br>
-    <div class="video">
-      <p>Learn more about the benefits of studying with us by watching the following short video.</p>
-      <video id="video" controls height="120" width="240">
-        <source src="C:\Users\tshwa\OneDrive\Documents\landing_page\images\benefits_video.mp4" type="video/mp4">
-        
-      </video>
-    </div>
-    <br>
-    <div>
-      <h3 id="about-us">About us.</h3>
-      <p >Tutoring Tree is an organisation that is invested in your future through education. We tutor all grades form primary school, high school, and even college/university. Our mission is to give our students the opportunity to reach their goals by providing tutoring that is specific to every student's needs. Our help goes beyond business hours, we don't only provide educational support but emotional support too. Whatever your eduactional struggles, we can turn it around for you.  </p>
-      <h3 id="offers">Our offers.</h3>
-      <ul>
-        <li>Online and physical tutoring sessions.</li>
-        <li>We tutor all subjects for primary school, high school, and university/college.</li>
-        <li>Career guidance.</li>
-        <li>Exam preparation bootcamps.</li>
-        <li>20% off your payment when you refer a friend.</li>
-        <li>Up to 10 hours of tutoring time per week.</li>
-      </ul>
-      <h3 id="testimonials">Testimonials.</h3>
-      <div>
-        <img id="student1" src="C:\Users\tshwa\OneDrive\Documents\landing_page\images\student_1.jpg">
-        <p>"Tutoring Tree has helped get into my preffered university, thanks to their help I am now studying to become an engineer at a top university in the country. I will contione to utilize their services so that I can graduate in record time!"</p>
+      <div class="video">
+        <p>Learn more about the benefits of studying with us by watching the following short video.</p>
+        <video id="video" controls height="320" width="640">
+          <source src="C:\Users\tshwa\OneDrive\Documents\landing_page\images\benefits_video.mp4" type="video/mp4">
+          
+        </video>
       </div>
-      <br>
-      <div >
-        <img id="student2" src="C:\Users\tshwa\OneDrive\Documents\landing_page\images\student_2.jpg">
-        <p>"Tutoring Tree has been patient with me throughout my varsity life. Their approach to the teaching is amazing, they ensure that the content is taught in way that is tailored to you and your needs. I am forever grateful!"</p>
-      </div>
-
-      <h3 id="contact">Contact us.</h3>
-      <p>We are available from Monday to Friday 8:00 to 18:00 (UTC+1). Feel free to contact us. </p>
-    </div>
-
-    <section >
-      <section>
-        <div class="contact">
-          <span class="icon-envelpe"></span>
-          <h4>Email</h4>
-          <a href="tutoringtree@gmail.com">tshwarelomalepe1@gmail.com</a>
+      <section class="about-us">
+        <h3 id="about-us">About us.</h3>
+        <p >Tutoring Tree is an organisation that is invested in your future through education. We tutor all grades form primary school, high school, and even college/university. Our mission is to give our students the opportunity to reach their goals by providing tutoring that is specific to every student's needs. Our help goes beyond business hours, we don't only provide educational support but emotional support too. Whatever your eduactional struggles, we can turn it around for you.  </p>
+      </section>
+      <section class="offers">
+        <h3 id="offers">Our offers.</h3>
+        <ul>
+          <li>Online and physical tutoring sessions.</li>
+          <li>We tutor all subjects for primary school, high school, and university/college.</li>
+          <li>Career guidance.</li>
+          <li>Exam preparation bootcamps.</li>
+          <li>20% off your payment when you refer a friend.</li>
+          <li>Up to 10 hours of tutoring time per week.</li>
+        </ul>
+      </section>
+      <section class="testimonials">
+        <h3 id="testimonials">Testimonials.</h3>
+        <div class="reviews">
+          <div class="content">
+            <img id="student1" src="https://post.psychcentral.com/wp-content/uploads/sites/4/2021/08/female-student-writing-on-paper-library-desk-study-1200x628-facebook-1200x628.jpg">
+            <p>"Tutoring Tree has helped get into my preffered university, thanks to their help I am now studying to become an engineer at a top university in the country. I will contione to utilize their services so that I can graduate in record time!"</p>
+          </div>
+          <div class="content">
+            <img id="student2" src="https://www.sacap.edu.za/wp-content/uploads/2019/03/benefits-of-studying-before-travelling-sacap.jpg">
+            <p>"Tutoring Tree has been patient with me throughout my varsity life. Their approach to the teaching is amazing, they ensure that the content is taught in way that is tailored to you and your needs. I am forever grateful!"</p>
+          </div>
         </div>
       </section>
-      <section>
-        <div class="contact">
-          <span class="icon-phone"></span>
-          <h4>Phone</h4>
-          <span>(+27) 60 654 7949</span>
-        </div>
-      </section>
-    </section>
-  </div>
-</section>
-
+      <footer id="contact">
+        <section class="available">
+          <p>We are available from Monday to Friday 8:00 to 18:00 (UTC+1). Feel free to contact us. </p>
+        </section>
+        <div class="info">
+            <div class="contact">
+              <span class="icon-envelpe"></span>
+              <h4>Email</h4>
+              <a href="tutoringtree@gmail.com">tshwarelomalepe1@gmail.com</a>
+            </div>
+            <div class="contact">
+              <span class="icon-phone"></span>
+              <h4>Phone</h4>
+              <span>(+27) 60 654 7949</span>
+            </div>
+          </div>
+      </footer>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <script  src="js/index.js"></script>
 
   </body>
 </html>
+<style>
+  #header {
+    display: flex;
+  }
+  @media (max-width < 992px) {
+    body {
+        background-color: blue;
+    }
+}
+</style>
